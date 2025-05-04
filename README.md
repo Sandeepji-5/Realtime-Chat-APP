@@ -6,7 +6,11 @@
 ![Demo App](/frontend/public/2.png)
 ## Setting Theme.. 🏳️‍🌈
 ![Demo App](/frontend/public/3.png)
-## Your contacts..[have to add]
+## Connections..👯‍♂️👯‍♂️
+![Demo App](/frontend/public/4.png)
+## chats..🗨️
+![Demo App](/frontend/public/5.png)
+
 
 
 Highlights:
