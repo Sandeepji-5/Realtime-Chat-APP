@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useAuthStore } from "../store/useAuthStore";
-import { LogOut, MessageSquare, Settings, User } from "lucide-react";
+import { LogOut, MessageSquare, Settings, User, Cpu } from "lucide-react";
 
 const Navbar = () => {
   const { logout, authUser } = useAuthStore();
@@ -18,7 +18,16 @@ const Navbar = () => {
                 <MessageSquare className="w-5 h-5 text-primary" />
               </div>
               <h1 className="text-lg font-bold">Chatty</h1>
+
             </Link>
+        {/* AI Section */}
+        <Link to="/ai" className="flex items-center gap-2 hover:opacity-80 transition-all">
+              <div className="size-9 rounded-lg bg-secondary/10 flex items-center justify-center">
+                <Cpu className="w-5 h-5 text-secondary" />
+              </div>
+              <h1 className="text-lg font-bold">AI</h1>
+            </Link>
+            
           </div>
 
           <div className="flex items-center gap-2">

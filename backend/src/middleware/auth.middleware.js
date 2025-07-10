@@ -1,6 +1,9 @@
 import jwt from "jsonwebtoken";
 import User from "../models/user.model.js";
-const rateLimit = require('express-rate-limit');
+import rateLimit from "express-rate-limit";
+import { app } from "../lib/socket.js";
+
+
 
 const limiter = rateLimit({
   windowMs: 1 * 60 * 1000, // 1 minute
